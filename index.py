@@ -17,3 +17,11 @@ def num_Maximo (value) :
 
 print("funcion Numero Maximo", num_Maximo(arr))
 
+def num_Minimo (value): 
+    min = value[0]
+    for i in range(1, len(value)):
+        if value[i] < min :
+            min = value[i]
+    return min
+
+print("funcion Numero Minimo", num_Minimo(arr))
