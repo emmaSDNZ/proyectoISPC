@@ -8,11 +8,20 @@ number5 = int(input("Ingresa el quinto número: "))
 
 arr = [number1, number2, number3, number4, number5]
 
-def numMaximo (value) : 
+def num_Maximo (value) : 
     max = value[0]
     for i in range(1, len(value)):
         if value[i] > max:
             max = value[i]
     return max
 
-print ("funcion Numero Maximo", numMaximo(arr))
+print("funcion Numero Maximo", num_Maximo(arr))
+
+def num_Minimo (value): 
+    min = value[0]
+    for i in range(1, len(value)):
+        if value[i] < min :
+            min = value[i]
+    return min
+
+print("funcion Numero Minimo", num_Minimo(arr))
