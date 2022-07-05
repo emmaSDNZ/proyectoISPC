@@ -12,8 +12,4 @@ promedio = suma / 5
 numeroMasGrande = max(number1, number2, number3, number4, number5)
 numeroMasChico = min(number1, number2, number3, number4, number5)
 # Imprime el resultado.
-print("")
-print("El número más grande es:", numeroMasGrande)
-print(f'El numero mas chico es: {numeroMasChico}')
-print(f'La suma de los numeros es: {suma}')
-print(f'El promedio de la suma es: {promedio}')
+
