@@ -25,3 +25,8 @@ def num_Minimo (value):
     return min
 
 print("funcion Numero Minimo", num_Minimo(arr))
+print("")
+print("El número más grande es:", numeroMasGrande)
+print(f'El numero mas chico es: {numeroMasChico}')
+print(f'La suma de los numeros es: {suma}')
+print(f'El promedio de la suma es: {promedio}')
