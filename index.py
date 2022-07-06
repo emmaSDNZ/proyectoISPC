@@ -39,10 +39,12 @@ def sumar_list(arr):
     return suma
 print(f"La suma es: {suma}")
 
+
 # Imprime el resultado.
 print("")
 print("El número más grande es:", numeroMasGrande)
 print(f'El numero mas chico es: {numeroMasChico}')
 print(f'La suma de los numeros es: {suma}')
 print(f'El promedio de la suma es: {promedio}')
+
 
