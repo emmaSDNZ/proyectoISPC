@@ -1,4 +1,3 @@
-
 number1 = int(input("Ingresa el primer número: "))
 number2 = int(input("Ingresa el segundo número: "))
 number3 = int(input("Ingresa el tercer número: "))
@@ -15,7 +14,7 @@ numeroMasChico = min(number1, number2, number3, number4, number5)
 
 arr = [number1, number2, number3, number4, number5]
 
-def num_Maximo (value) : 
+def num_Maximo (value) :
     max = value[0]
     for i in range(1, len(value)):
         if value[i] > max:
@@ -24,7 +23,7 @@ def num_Maximo (value) :
 
 print("funcion Numero Maximo", num_Maximo(arr))
 
-def num_Minimo (value): 
+def num_Minimo (value):
     min = value[0]
     for i in range(1, len(value)):
         if value[i] < min :
@@ -39,5 +38,13 @@ def sumar_list(arr):
         suma += arr[i]
     return suma
 print(f"La suma es: {suma}")
+
+
+# Imprime el resultado.
+print("")
+print("El número más grande es:", numeroMasGrande)
+print(f'El numero mas chico es: {numeroMasChico}')
+print(f'La suma de los numeros es: {suma}')
+print(f'El promedio de la suma es: {promedio}')
 
 
