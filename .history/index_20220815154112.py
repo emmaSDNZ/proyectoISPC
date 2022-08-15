@@ -33,7 +33,7 @@ def num_Maximo (lista) :
 
 #5) Función Mínimo: recibe como parámetro la lista y devuelve el valor mínimo de todos los elementos que contiene.
 def num_Minimo (lista):
-    min = lista[0]
+    min = value[0]
     for i in range(1, len(lista)):
         if lista[i] < min :
             min = lista[i]

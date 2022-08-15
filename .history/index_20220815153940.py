@@ -18,8 +18,8 @@ def sumar_list(lista):
 # 3) Función Promedio: recibe como parámetro la lista y devuelve el promedio de sus elementos.
 def promedio (lista) : 
     suma = 0
-    for i in lista:
-        suma += i
+    for i in range(lista):
+        suma += lista[i]
     return suma/len(lista)
 
     
@@ -33,7 +33,7 @@ def num_Maximo (lista) :
 
 #5) Función Mínimo: recibe como parámetro la lista y devuelve el valor mínimo de todos los elementos que contiene.
 def num_Minimo (lista):
-    min = lista[0]
+    min = value[0]
     for i in range(1, len(lista)):
         if lista[i] < min :
             min = lista[i]
